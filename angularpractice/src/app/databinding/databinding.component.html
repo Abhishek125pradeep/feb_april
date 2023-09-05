@@ -1,0 +1,24 @@
+<p>databinding works!</p>
+<input type="text" [disabled]="enable" [value]="Name"><br>
+
+<input type="text" [hidden]="enable" [value]="Name">
+<!-- Property Binding -->
+<input type="text" [(ngModel)]="Uname">
+{{Uname}}
+<input type="text" value="Abhishek" [(ngModel)]="Myname">
+{{Myname}}
+
+<!-- // one way data binding -->
+<!-- 1StringInterpolation  -->
+<h1>{{'Welcome'+Majhanav}}</h1>
+<!-- Property binding -->
+<input type="text" [disabled]="eenable" [value]="Majhanav"><br>
+Gender:-<input type="radio" [checked]="Grnder">
+<!-- event binding -->
+<button (click)="databinding()">button</button>
+{{bindingdata}}
+<!-- 
+Two way Data Binding -->
+<input type="text" [(ngModel)]="CommonName">
+{{CommonName}}
+

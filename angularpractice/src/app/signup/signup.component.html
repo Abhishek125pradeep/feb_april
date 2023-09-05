@@ -1,0 +1,36 @@
+<div class="login">
+    <h2>{{loginForm}}</h2><br>
+    <div>
+        <form>
+            <label>Email</label><br> 
+            <input type="text"><br><br>
+            <label>Password</label><br>
+            <input type="text"> <br> <br>
+            <button>Submit</button>
+
+        </form>
+    </div>
+</div>
+<br> 
+<input type="text" [value]="myName"> <br>
+ Gender:<input type="radio" [checked]="gender"> <br> <br>
+
+  <button (click)="testingeventbinding()">button</button>
+  <p>{{testingevent}}</p>
+
+  Name:-<input type="text" [value]="Namemy"><br>
+  Gender:- <input type="radio" [checked]="Gender">
+
+
+  <Button (click)="Databinding()">button</Button>
+  <p>{{databindingdb}}</p>
+
+  <h1>{{"Welcome"+strng}}</h1>
+  <p>{{strng.toUpperCase()}}</p>
+
+  {{MYname()}} <br><br>
+  
+
+
+  <button routerLink="/home"> Back to Home Screen</button>
+

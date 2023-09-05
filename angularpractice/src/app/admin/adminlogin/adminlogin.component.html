@@ -1,0 +1,23 @@
+<p>adminlogin works!</p>
+<!-- property Binding -->
+<input type="text" [value]="Name"> &nbsp;
+male<input type="radio" [checked]="gender">
+
+<button (click)="Testevent()">button</button>
+{{testbinding}}
+
+
+
+<!-- one way Data Bineding -->
+
+<!-- string interpolation -->
+<h1>MY NAME IS {{myname}}</h1>
+<!-- Prperty Biding -->
+<input type="text" [value]="myname">
+<input type="radio" [checked]="mame">
+<!-- event binding -->
+<button (click)="root()">click</button> &nbsp;
+{{oncemore}}
+<!-- two way data binding -->
+<input type="text"[(ngModel)]="city">
+{{city}}
