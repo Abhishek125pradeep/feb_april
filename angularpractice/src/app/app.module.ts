@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { HomeComponent } from './home/home.component';
+import { StudentdemoComponent } from './studentdemo/studentdemo.component';
+import { DirectivesComponent } from './directives/directives.component';
 // console.log("app.module.ts");
 
 @NgModule({
@@ -13,7 +15,9 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     SignupComponent,
     DatabindingComponent,
-    HomeComponent
+    HomeComponent,
+    StudentdemoComponent,
+    DirectivesComponent
   ],
   imports: [
     BrowserModule,
