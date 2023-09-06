@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./directives.component.css']
 })
 export class DirectivesComponent {
-Show=true;
+
 }

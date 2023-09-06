@@ -16,6 +16,6 @@ export class HomeComponent {
     this.route.navigateByUrl("admin/adminlogin")
   }
   directives(){
-    this.route.navigateByUrl("/directives")
+    this.route.navigateByUrl("/directv")
   }
 }

@@ -1,3 +1,23 @@
 <p>studentdemo works!</p>
 
 <button (click)="Back()">BaCK</button>
+
+
+<ul *ngFor="let itmes of cars">
+    <li>{{itmes}}</li>
+</ul>
+
+<table>
+    <tr>
+        <th>carsname</th>
+        <th>price</th>
+        <th>color</th>
+    </tr>
+    <tr *ngFor="let tableData of carsdetails">
+        <td>{{tableData.carname}}</td>
+        <td>{{tableData.carprice}}</td>
+        <td>{{tableData.colors}}</td>
+    </tr>
+</table>
+
+

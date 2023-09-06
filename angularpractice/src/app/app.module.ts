@@ -8,6 +8,8 @@ import { DatabindingComponent } from './databinding/databinding.component';
 import { HomeComponent } from './home/home.component';
 import { StudentdemoComponent } from './studentdemo/studentdemo.component';
 import { DirectivesComponent } from './directives/directives.component';
+import { DirectveComponent } from './directve/directve.component';
+
 // console.log("app.module.ts");
 
 @NgModule({
@@ -17,7 +19,9 @@ import { DirectivesComponent } from './directives/directives.component';
     DatabindingComponent,
     HomeComponent,
     StudentdemoComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    DirectveComponent,
+
   ],
   imports: [
     BrowserModule,

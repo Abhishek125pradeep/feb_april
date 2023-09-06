@@ -6,3 +6,10 @@
     background-color: beige;
     padding: 26px 44px;
 }
+.div{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    color: aqua;
+    background-color: aquamarine;
+}

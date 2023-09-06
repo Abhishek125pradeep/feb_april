@@ -6,12 +6,14 @@ import { HomeComponent } from './home/home.component';
 import { StudentdemoComponent } from './studentdemo/studentdemo.component';
 
 const routes: Routes = [
+  {path:'',component:HomeComponent},
   {path:"databinding",component:DatabindingComponent},
   {path:'signup',component:SignupComponent},
   {path:'home',component:HomeComponent},
-  {path:'',component:HomeComponent},
-  {path:"studentdemo",component:StudentdemoComponent},
   {path:"directives",component:Directive},
+  {path:"directv",component:Directive},
+  {path:"studentdemo",component:StudentdemoComponent},
+  
 {path:'admin',loadChildren:()=>import('./admin/admin.module').then(mod => mod.AdminModule)}
 ]
 @NgModule({

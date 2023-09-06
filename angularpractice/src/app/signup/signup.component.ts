@@ -14,7 +14,11 @@ databindingdb:any;
 testingevent:any;
 gender = true;
 loginForm = "Loginform";
+toshowpara:string="abhi";
+parashow!:string;
+Toggel:boolean=true;
 Gender=true;
+show=false;
 testingeventbinding(){
   this.testingevent='testing'
 }
@@ -23,5 +27,9 @@ this.databindingdb="enything else"
 }
 MYname(){
  return "MY  Name Is "+this. strng
+}
+toggel(){
+  // this.Toggel=false
+  this.Toggel= !this.Toggel
 }
 }
